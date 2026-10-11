@@ -1,0 +1,6 @@
+{
+  "name": "Al Mamoura Film Festival - Official Voting & Results PWA",
+  "description": "Official Progressive Web App for Al Mamoura Film Festival featuring direct paid voting orders, default Ziina payment gateway with Apple Pay and Visa/Mastercard, real-time Supabase sync with pull-to-refresh, live results tracking, and administrator monitoring dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

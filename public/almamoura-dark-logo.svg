@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <defs>
+    <!-- Antique gold pillar gradient from Al Mamoura brand guideline -->
+    <linearGradient id="darkLogoGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C59B3F" />
+      <stop offset="50%" stop-color="#A3792C" />
+      <stop offset="100%" stop-color="#7B5B16" />
+    </linearGradient>
+  </defs>
+
+  <g>
+    <!-- 1. Film strip branch / sprout curling upward to the left from the calligraphy -->
+    <g fill="#111111" stroke="#111111">
+      <!-- Upper film strip -->
+      <path d="M 345 425 C 310 270 280 230 265 220 C 275 240 285 300 345 425 Z" opacity="0.9" />
+      <path d="M 265 220 C 275 210 300 240 335 360" fill="none" stroke-width="8" stroke-linecap="round" />
+      <!-- Film sprockets on upper strip -->
+      <line x1="272" y1="240" x2="280" y2="242" stroke="#FAF8F5" stroke-width="2.5" />
+      <line x1="284" y1="270" x2="292" y2="272" stroke="#FAF8F5" stroke-width="2.5" />
+      <line x1="298" y1="305" x2="306" y2="307" stroke="#FAF8F5" stroke-width="2.5" />
+      <line x1="314" y1="345" x2="322" y2="347" stroke="#FAF8F5" stroke-width="2.5" />
+
+      <!-- Middle film strip -->
+      <path d="M 345 425 C 270 320 200 320 165 300 C 190 325 245 355 345 425 Z" opacity="0.9" />
+      <path d="M 165 300 C 180 295 240 325 330 405" fill="none" stroke-width="12" stroke-linecap="round" />
+      <!-- Sprockets on middle strip -->
+      <line x1="185" y1="306" x2="188" y2="314" stroke="#FAF8F5" stroke-width="3" />
+      <line x1="215" y1="316" x2="218" y2="324" stroke="#FAF8F5" stroke-width="3" />
+      <line x1="248" y1="330" x2="251" y2="338" stroke="#FAF8F5" stroke-width="3" />
+      <line x1="282" y1="352" x2="285" y2="360" stroke="#FAF8F5" stroke-width="3" />
+      <line x1="312" y1="380" x2="315" y2="388" stroke="#FAF8F5" stroke-width="3" />
+
+      <!-- Lower film strip -->
+      <path d="M 345 425 C 240 370 170 380 135 360 C 160 395 240 400 345 425 Z" opacity="0.9" />
+      <path d="M 135 360 C 150 355 220 375 320 415" fill="none" stroke-width="14" stroke-linecap="round" />
+      <!-- Sprockets on lower strip -->
+      <line x1="152" y1="367" x2="154" y2="377" stroke="#FAF8F5" stroke-width="3.5" />
+      <line x1="182" y1="373" x2="184" y2="383" stroke="#FAF8F5" stroke-width="3.5" />
+      <line x1="214" y1="382" x2="216" y2="392" stroke="#FAF8F5" stroke-width="3.5" />
+      <line x1="248" y1="392" x2="250" y2="402" stroke="#FAF8F5" stroke-width="3.5" />
+      <line x1="282" y1="403" x2="284" y2="413" stroke="#FAF8F5" stroke-width="3.5" />
+    </g>
+
+    <!-- 2. Arabic Monumental Calligraphy "المعمورة" in black (#111111) -->
+    <g fill="#111111">
+      <!-- Dot on top of Ta Marbuta on far left -->
+      <rect x="88" y="422" width="75" height="18" rx="2" />
+      <!-- Accent gold dot -->
+      <circle cx="125" cy="431" r="3" fill="#A3792C" />
+
+      <!-- Far left: Ta Marbuta (ة) -->
+      <path d="M 72 448 H 180 V 695 H 72 Z M 122 492 H 148 V 652 H 122 Z" />
+
+      <!-- Waw (و) descending loop -->
+      <path d="M 180 448 H 358 V 750 H 248 V 702 H 304 V 492 H 234 V 750 H 180 Z" />
+
+      <!-- Ra (ر) body -->
+      <path d="M 358 248 H 472 V 498 H 358 Z M 410 288 H 438 V 455 H 410 Z" />
+    </g>
+
+    <!-- 3. THE ICONIC GOLD PILLAR: Center letter Mim (م) -->
+    <g fill="url(#darkLogoGold)">
+      <path d="M 472 248 H 590 V 498 H 472 Z M 528 290 H 538 V 450 H 528 Z" />
+    </g>
+
+    <!-- 4. Right side: Ayn (ع) and Alef-Lam (ال) in black (#111111) -->
+    <g fill="#111111">
+      <!-- Ayn (ع) -->
+      <path d="M 590 248 H 708 V 498 H 590 Z M 646 288 H 674 V 455 H 646 Z" />
+
+      <!-- Alef and Lam vertical towers (ال) -->
+      <rect x="714" y="222" width="48" height="276" rx="2" />
+      <rect x="768" y="222" width="56" height="276" rx="2" />
+    </g>
+
+    <!-- 5. English Brand Typography below: AL MAMOURA FILM FESTIVAL in black (#111111) -->
+    <g fill="#111111" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="900">
+      <!-- Line 1: AL MAMOURA -->
+      <text x="372" y="572" font-size="58" letter-spacing="21">AL MAMOURA</text>
+      <!-- Line 2: F I L M -->
+      <text x="372" y="648" font-size="58" letter-spacing="46">FILM</text>
+      <!-- Line 3: F E S T I V A L -->
+      <text x="372" y="722" font-size="58" letter-spacing="23">FESTIVAL</text>
+    </g>
+  </g>
+</svg>

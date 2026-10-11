@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-festival-black: #111111;
+    --color-festival-gold: #A3792C;
+    --color-festival-gold-light: #C59B3F;
+    --color-festival-gold-dark: #84601F;
+    --color-festival-cream: #FAF8F5;
+    --color-festival-sand: #F3EFEA;
+    --color-festival-border: #E8E3DA;
+  }
+
+  body {
+    background-color: var(--color-festival-cream);
+    color: var(--color-festival-black);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-arabic {
+    font-family: 'Tajawal', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F3EFEA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4CBBB;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A3792C;
+}
+
+/* Gold shimmer animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #C59B3F 0%, #A3792C 50%, #84601F 100%);
+}
+
+.gold-shimmer {
+  background: linear-gradient(90deg, rgba(197, 155, 63, 0.1) 0%, rgba(197, 155, 63, 0.4) 50%, rgba(197, 155, 63, 0.1) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite linear;
+}
+
